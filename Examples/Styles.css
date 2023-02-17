@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 5%;
+}
+
+.nav-logo img {
+    width: 50%;
+    height: auto;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav-items li {
+    margin: 0 3%;
+}
+
+.nav-items a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(28, 75, 47);
+}
+
+/* background Image */
+
+
+.parallax-background img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    object-fit: contain;
+}
