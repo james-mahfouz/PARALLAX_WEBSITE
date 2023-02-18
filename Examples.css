@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden
 }
 
 .Examples-navbar {
@@ -9,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    margin: 0%;
+    margin: 0 4%;
 }
 
 .Examples-nav-logo img {
@@ -49,15 +50,13 @@ body {
 
 /* Examples*/
 
+.Examples-parallax-wrapper {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
 
-/* .parallax-background-example img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    object-fit: contain;
-} */
-
-.Examples-container {
+.Examples-main-container {
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -67,7 +66,7 @@ body {
 
 }
 
-.Examples-parallax {
+.Examples-gpt-container {
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -77,11 +76,59 @@ body {
 .Examples-backgraound-GPT {
     background-image: url('Images/chatgpt-background.jpg');
     height: 100vh;
-    width: 100vw;
+    width: 120vw;
     background-size: cover;
     top: 0;
     left: 0;
     z-index: -1;
-
-    /* align-items: center; */
+    background-position: center;
 }
+
+.Examples-h1 {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 130px;
+    font-weight: 900;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 5px 2px rgb(159, 149, 51);
+    /* word-spacing: 10vw; */
+}
+
+.Examples-p1 {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 3px 3px rgb(136, 45, 45);
+}
+
+.Examples-gpt-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* 
+.Examples-logo-gtp {
+    position: absolute;
+    margin: 0 auto;
+    width: 40%;
+    top: -100vh;
+    left: 50%;
+    transform: scale(0.1);
+
+} */
