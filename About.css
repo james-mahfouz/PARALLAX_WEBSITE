@@ -103,7 +103,8 @@ body {
     transform: translateZ(-0.3px) scale(1.3);
 }
 
-/*.parallax-background img{
+/**********************/
+.parallax-background img{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -165,3 +166,4 @@ body {
         width: 60%;
     }
 }
+/**********************/
