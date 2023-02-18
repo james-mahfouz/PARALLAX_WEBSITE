@@ -54,21 +54,22 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 10px;
+    perspective: 1px;
 }
 
-
-.Examples-main-container {
+.Examples-robot-container {
     height: 100vh;
     width: 100vw;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transform-style: preserve-3d;
+    z-index: -1;
 }
 
-.Examples-gpt-container {
+
+.Examples--container {
     position: absolute;
     height: 100vh;
     width: 100vw;
