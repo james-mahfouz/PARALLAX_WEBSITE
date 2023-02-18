@@ -52,6 +52,7 @@ body {
     font-weight: bold;
     color: rgb(28, 75, 47);
     font-size: 25px;
+    filter:grayscale(100%);
 }
 
 * ,:after,:before{
@@ -272,9 +273,4 @@ img{
 }
 
 
-/* .parallax-background-example img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    object-fit: contain;
-} */
+
