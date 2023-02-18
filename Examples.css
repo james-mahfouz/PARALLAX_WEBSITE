@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
 }
 
-.navbar {
+.Examples-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,12 +12,12 @@ body {
     margin: 0%;
 }
 
-.nav-logo img {
+.Examples-nav-logo img {
     width: 30%;
     height: auto;
 }
 
-.nav-items ul {
+.Examples-nav-items ul {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -26,7 +26,7 @@ body {
     text-decoration: none;
 }
 
-.nav-items li {
+.Examples-nav-items li {
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -34,7 +34,7 @@ body {
     padding: 15px;
 }
 
-.nav-items a {
+.Examples-nav-items a {
     border: 1px solid white;
     background-color: white;
     border-radius: 50px;
@@ -57,7 +57,7 @@ body {
     object-fit: contain;
 } */
 
-.container-examples {
+.Examples-container {
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -67,14 +67,14 @@ body {
 
 }
 
-.parallax-examples {
-    position: relative;
+.Examples-parallax {
+    position: absolute;
     height: 100vh;
     width: 100vw;
 
 }
 
-.background-GPT-examples {
+.Examples-backgraound-GPT {
     background-image: url('Images/chatgpt-background.jpg');
     height: 100vh;
     width: 100vw;
@@ -82,26 +82,6 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
-    background-position: center;
-}
 
-h1 {
-    margin: 0 auto;
-    width: 90%;
-    font-size: 130px;
-    font-weight: 900;
-    line-height: 1.3;
-    letter-spacing: 1px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-shadow: ;
-    /* word-spacing: 10vw; */
-}
-
-.examples-paragrph-1 {
-    position: absolute;
+    /* align-items: center; */
 }
