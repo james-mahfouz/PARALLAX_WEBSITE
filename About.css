@@ -83,13 +83,13 @@ body {
 }
 
 .About-backlayer{
-    transform: translateZ(-1.5px) scale(2.5);
+    transform: translateZ(-2px) scale(3);
 }
 
 .About-midlayer{
-    transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1.5px) scale(2.5);
 }
 
 .About-frontlayer{
-    transform: translateZ(-0.5px) scale(1.5);
+    transform: translateZ(-0.3px) scale(1.3);
 }
