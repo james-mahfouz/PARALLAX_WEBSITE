@@ -84,15 +84,16 @@ body {
 }
 
 .Examples-arms {
-    transform: translateZ(-1.5px) scale(2);
+    transform: translateZ(-1.5px) scale(2.5);
 }
 
 .Examples-littleman {
-    transform: translateZ(-1px) scale(0.05);
+    transform: translateZ(-1px) scale(1);
+
 }
 
 .Examples-littlewoman {
-    transform: translateZ(-1px) scale(0.05);
+    transform: translateZ(-1px) scale(1);
 }
 
 
@@ -100,6 +101,11 @@ body {
     position: absolute;
     height: 100vh;
     width: 100vw;
+
+}
+
+.Examples-tex {
+    color: aliceblue;
 
 }
 
