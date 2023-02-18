@@ -54,21 +54,49 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 10px;
+    perspective: 1px;
 }
 
-
-.Examples-main-container {
+.Examples-robot-container {
     height: 100vh;
     width: 100vw;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transform-style: preserve-3d;
+    z-index: -1;
 }
 
-.Examples-gpt-container {
+.Examples-layers {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Examples-background-1 {
+    transform: translateZ(-2.5px) scale(4);
+}
+
+.Examples-background-2 {
+    transform: translateZ(-2px) scale(2.5);
+}
+
+.Examples-arms {
+    transform: translateZ(-1.5px) scale(2);
+}
+
+.Examples-littleman {
+    transform: translateZ(-1px) scale(0.05);
+}
+
+.Examples-littlewoman {
+    transform: translateZ(-1px) scale(0.05);
+}
+
+
+.Examples--container {
     position: absolute;
     height: 100vh;
     width: 100vw;
