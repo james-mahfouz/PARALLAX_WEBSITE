@@ -68,6 +68,33 @@ body {
     z-index: -1;
 }
 
+.Examples-layers {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Examples-background-1 {
+    transform: translateZ(-2.5px) scale(4);
+}
+
+.Examples-background-2 {
+    transform: translateZ(-2px) scale(2.5);
+}
+
+.Examples-arms {
+    transform: translateZ(-1.5px) scale(2);
+}
+
+.Examples-littleman {
+    transform: translateZ(-1px) scale(0.05);
+}
+
+.Examples-littlewoman {
+    transform: translateZ(-1px) scale(0.05);
+}
+
 
 .Examples--container {
     position: absolute;
