@@ -16,7 +16,16 @@ body {
 
 .About-nav-logo img {
     width: 30%;
+    height: auto;
+    margin: 0 0 auto 0; 
     filter: invert(100%);
+}
+
+.About-nav-items {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 0;
 }
 
 .About-nav-items ul {
@@ -29,6 +38,9 @@ body {
 }
 
 .About-nav-items li {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -37,9 +49,6 @@ body {
 }
 
 .About-nav-items a {
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 50px;
     text-align: center;
     width: 100%;
     padding: 4% 15%;
@@ -93,3 +102,68 @@ body {
 .About-frontlayer {
     transform: translateZ(-0.3px) scale(1.3);
 }
+
+/**********************/
+.parallax-background img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    object-fit: contain;
+}
+
+.About-3Dparallax-wrapper{
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective:300px;
+}
+
+.About-3Dparallax-group-into-screen{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #02011C;
+    display:flex;
+    position: relative;
+}
+
+.About-3Dparallax-group{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    position: relative;
+    transform-style: preserve-3d;          
+}
+
+.About-3Dparallax-group-into-screen .About-introID{
+    z-index: 0;
+}
+
+.About-3Dparallax-group .About-Group1{
+    z-index: 0px;
+}
+
+.About-3Dparallax-group .About-3Dparallax-layer-base{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    inset: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ .About-3Dparallax-layer-base{
+    transform: translateZ(-600px) scale(3);
+} */
+
+@media (max-width:700px){
+    .nav-logo img {
+        width: 60%;
+    }
+}
+/**********************/

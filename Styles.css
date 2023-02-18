@@ -72,7 +72,7 @@ body {
     height: 100vh;
     width: 100vw;
 
-}
+} 
 
 .background-GPT-examples {
     background-image: url('Images/chatgpt-background.jpg');
@@ -83,4 +83,4 @@ body {
     left: 0;
     z-index: -1;
     background-position: center;
-}
+    }
