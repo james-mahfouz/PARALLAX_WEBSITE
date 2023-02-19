@@ -221,3 +221,47 @@ body{
     width: 37%;
     transform: translate3d(-4.2vw,-4.8vh,240px) scale(0.19);
 }
+
+@media (max-width:850px){
+    @media (max-width:700px){
+        .Evolution-nav-logo img {
+            width: 80%;
+        }
+    }
+  
+    .Evolution-nav-items li {
+        font-size: smaller;
+        padding: 8px;
+    }
+    
+    .Evolution-nav-items a {
+        font-size: 13px;
+    }
+}
+  
+@media (max-width:500px) {
+    .Evolution-nav-logo img {
+        width: 100%;
+    }
+  
+    .Evolution-nav-items a {
+        font-size: 10px;
+    }    
+}
+  
+@media (max-width:300px){
+    @media (max-width:700px){
+        .Evolution-nav-logo img {
+            width: 150%;
+         }
+    }
+
+    .Evolution-nav-items li {
+        font-size: smaller;
+        padding: 4px;
+    }
+
+    .Evolution-nav-items a {
+        font-size: 8px;
+    }
+}
