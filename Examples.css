@@ -218,25 +218,33 @@ width: 100%;
 
 
 .Examples-dalle-images {
-    width: 100vw;
-    /* transform: translateZ(-1px) scale(0.5); */
-    position: relative;
+    position: absolute;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 .Examples-dalle-images img {
     object-fit: contain;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 35%;
+    border-radius: 20%;
+}
 
+.Examples-dunk,
+.Examples-robo {
+    /* transform: translateZ(-1px) scale(1); */
+    transform: translateZ(-0px) scale(1)
+}
+
+.Examples-dalle-text {
+    transform: translateZ(0.5px) scale(0.5)
 }
 
 
-
 .Examples-p2 {
-    width: 60%;
+    width: 50%;
     font-size: 2em;
     font-weight: 300;
     line-height: 1.3;
