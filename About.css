@@ -201,12 +201,12 @@ h3 {
   }
 
   .About-nav-items li {
-      font-size: smaller;
+      font-size: 30;
       padding: 8px;
   }
   
   .About-nav-items a {
-      font-size: 13px;
+      font-size: 20px;
   }
 
   .About-Random-text {
@@ -214,13 +214,19 @@ h3 {
   }
 }
 
+@media (max-width:700px) {
+  .About-nav-logo img {
+      width: 60%;
+  }
+}
+
 @media (max-width:500px) {
   .About-nav-logo img {
-      width: 100%;
+      width: 80%;
   }
 
   .About-nav-items a {
-      font-size: 10px;
+      font-size: 15px;
   }    
 
   .About-BackgrounImage-Text {
@@ -234,11 +240,19 @@ h3 {
   }
 }
 
+@media (max-width:400px) {
+  .About-nav-logo img {
+      width: 60%;
+  }
+
+  .About-nav-items a {
+      font-size: 10px;
+  }
+}
+
 @media (max-width:300px){
-  @media (max-width:700px){
-      .About-nav-logo img {
-          width: 150%;
-      }
+  .About-nav-logo img {
+      width: 80%;
   }
 
   .About-nav-items li {
