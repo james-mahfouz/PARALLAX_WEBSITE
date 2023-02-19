@@ -960,3 +960,64 @@ img{
     top:90%;
 }
 }
+
+
+.backburner .background-artwork{
+    background-image:var(--gradient-teal);
+}
+.backburner-pieces .todo-list{
+    filter:drop-shadow(0 1rem .5rem rgba(var(--shadow),.1));
+}
+
+@media screen and (min-width:601px){
+.backburner-pieces .todo-list{width:20vw;margin-left:-9vw;top:15%;
+}
+}
+.play .background-artwork{
+    background-image:url(https://matterday.netlify.com/images/konami.svg),var(--gradient-purple);background-size:100% auto;
+}
+.play-pieces .cross-stitch,.play-pieces .lego{
+    filter:var(--drop-shadow);
+}
+
+@media screen and (min-width:601px){
+.play-pieces .cross-stitch{
+    width:20vw;
+    top:25%;
+}
+.play-pieces .lego1{
+    width:4.5vw;
+    margin-left:-12vw;top:17%;
+    transform:rotate(5deg);
+}
+.play-pieces .lego2{
+    width:4vw;
+    top:30%;
+    transform:rotate(-4deg);
+}
+.play-pieces .lego3{
+    width:4.5vw;
+    margin-left:-5vw;
+    top:60%;
+}
+.play-pieces .lego4{
+    width:4.5vw;
+    margin-left:3vw;
+    top:90%;
+    transform:rotate(-10deg);
+}
+}
+@media screen and (max-height:400px) and (min-width:1000px){
+.play-pieces .lego1{
+    transform:rotate(5deg) scale(.7);
+}
+.play-pieces .lego2{
+    transform:rotate(-4deg) scale(.7);
+}
+.play-pieces .lego4{
+    transform:rotate(-10deg) scale(.7);
+}
+}
+.big-swings .background-artwork{
+    background-image:repeating-linear-gradient(45deg,hsla(0,0%,100%,0),hsla(0,0%,100%,0) 5px,hsla(0,0%,100%,.06) 5px,hsla(0,0%,100%,.06) 10px),linear-gradient(to bottom,var(--teal-medium),var(--purple-dark));
+}
