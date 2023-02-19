@@ -273,4 +273,18 @@ img{
 }
 
 
+.parallax{
+    display:flex;
+    flex-direction:column;
+}
+
+.parallax-group{
+    margin-bottom:1em;padding:0 var(--body-padding);
+    position:relative;z-index:2;
+}
+
+.parallax .content{
+    margin:15vw 0 10vw;
+}
+
 
