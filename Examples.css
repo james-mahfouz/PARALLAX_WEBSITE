@@ -216,24 +216,23 @@ width: 100%;
     transform: translateZ(-1px) scale(2);
 }
 
-.Examples-arms {
-    transform: translateZ(-1.5px) scale(2.5);
-}
 
-
-.Examples-littleman {
-    transform: translateZ(-1px) scale(2);
+.Examples-dalle-images {
+    width: 100vw;
+    /* transform: translateZ(-1px) scale(0.5); */
     position: relative;
-    right: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.Examples-dalle-images img {
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
 
 }
 
-.Examples-littlewoman {
-    transform: translateZ(-1px) scale(2.5);
-    position: relative;
-    left: 35%;
-}
 
 
 .Examples-p2 {
