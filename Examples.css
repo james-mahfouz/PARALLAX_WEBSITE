@@ -16,6 +16,7 @@ body {
 .Examples-nav-logo img {
     width: 30%;
     height: auto;
+    filter: invert(1);
 }
 
 .Examples-nav-items ul {
