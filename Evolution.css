@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: black; */
 }
 
 .About-navbar {
@@ -93,21 +94,6 @@ body{
     object-fit: cover;
 }
 
-.Pigeon{
-    width: 15%;
-    transform: translate3d(-9vw,-8vh,230px) scale(0.15);
-}
-
-.Campfire{
-    width: 10%;
-    transform: translate3d(-13vw,6vh,175px) scale(0.30);
-}
-
-.Caveman{
-    width: 30%;
-    transform: translate3d(-8vw,3vh,174px) scale(0.30);
-}
-
 .Left-filler{
     background-color: rgb(193, 170, 231);
     width: 45%;
@@ -128,4 +114,101 @@ body{
 
 .White-space{
     margin-bottom: 300vh;
+}
+
+/* First block */
+
+.Pigeon{
+    width: 15%;
+    transform: translate3d(-9vw,-8vh,230px) scale(0.15);
+}
+
+.Campfire{
+    width: 10%;
+    transform: translate3d(-13vw,6vh,175px) scale(0.30);
+}
+
+.Caveman{
+    width: 30%;
+    transform: translate3d(-8vw,3vh,174px) scale(0.30);
+}
+
+/* Second block */
+
+.Guyondesk{
+    width: 30%;
+    transform: translate3d(-12vw,0vh,160px) scale(0.8);
+}
+
+.Letter1{
+    width: 15%;
+    transform: translate3d(-1.6vw,3vh,250px) scale(0.08);
+}
+
+.Letter2{
+    width: 15%;
+    transform: translate3d(-4vw,-8vh,230px) scale(0.15);
+}
+
+.Letter3{
+    width: 15%;
+    transform: translate3d(-10vw,5vh,210px) scale(0.18);
+}
+
+.Letter4{
+    width: 15%;
+    transform: translate3d(-20vw,-3vh,140px) scale(0.35);
+}
+
+/* Third block */
+
+.Graph-pic{
+    width: 15%;
+    transform: translate3d(-4vw,0vh,200px) scale(0.3);
+}
+
+.Ads{
+    width: 37%;
+    transform: translate3d(-14vw,-6vh,120px) scale(0.9);
+}
+
+.STONKS{
+    width: 15%;
+    transform: translate3d(-10vw,0vh,200px) scale(0.35);
+}
+
+/* Fourth block */
+
+.Brush{
+    width: 24%;
+    transform: translate3d(-9vw,-4vh,220px) scale(0.2);
+}
+
+.Ai-art{
+    width: 37%;
+    transform: translate3d(-15vw,0vh,120px) scale(0.9);
+}
+
+/* Fifth block */
+
+.Brain-connections{
+    width: 37%;
+    transform: translate3d(-12vw,-5vh,180px) scale(0.4);
+}
+
+.Brainchip{
+    width: 37%;
+    transform: translate3d(-5vw,5vh,210px) scale(0.2);
+}
+
+/* REDACTED */
+
+.Access-denied{
+    width: 37%;
+    transform: translate3d(-10.4vw,-4vh,180px) scale(0.5);
+}
+
+.ERROR{
+    width: 37%;
+    transform: translate3d(-5vw,-4.8vh,240px) scale(0.19);
 }
