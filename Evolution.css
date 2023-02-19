@@ -2,11 +2,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: black; */
+    background-image: url(/Images/Static-pics/Background/Bg.jpg);
+    background-repeat: repeat-y;
+    font-family: arial;
 }
 
 .About-navbar {
-    background-color: #0F0C38;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,25 +96,32 @@ body{
 }
 
 .Left-filler{
-    background-color: rgb(193, 170, 231);
+    /* background-color: rgb(193, 170, 231); */
     width: 45%;
 }
 
 .Content{
-    background-color: rgb(153, 177, 199);
+    /* background-color: rgb(153, 177, 199); */
     width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
-.Random-text{
-    font-size: large;
+.Content-text{
+    font-size: 22;
+    color: white;
+}
+
+.Title{
+    font-size: 40;
+    font-weight: bolder;
 }
 
 .White-space{
-    margin-bottom: 300vh;
+    margin-bottom: 100vh;
 }
 
 /* First block */
@@ -185,8 +193,8 @@ body{
 }
 
 .Ai-art{
-    width: 37%;
-    transform: translate3d(-15vw,0vh,120px) scale(0.9);
+    width: 32%;
+    transform: translate3d(-13vw,0vh,120px) scale(0.9);
 }
 
 /* Fifth block */
@@ -205,10 +213,10 @@ body{
 
 .Access-denied{
     width: 37%;
-    transform: translate3d(-10.4vw,-4vh,180px) scale(0.5);
+    transform: translate3d(-8.8vw,-4vh,180px) scale(0.5);
 }
 
 .ERROR{
     width: 37%;
-    transform: translate3d(-5vw,-4.8vh,240px) scale(0.19);
+    transform: translate3d(-4.2vw,-4.8vh,240px) scale(0.19);
 }
