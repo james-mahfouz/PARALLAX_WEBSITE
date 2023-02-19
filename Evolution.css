@@ -7,7 +7,7 @@ body{
     /* font-family: arial; */
 }
 
-.About-navbar {
+.Evolution-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,14 +15,14 @@ body{
     margin: 0%;
 }
   
-.About-nav-logo img {
+.Evolution-nav-logo img {
     width: 30%;
     height: auto;
     margin: 0 4%; 
     filter: invert(100%);
 }
   
-.About-nav-items {
+.Evolution-nav-items {
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -30,7 +30,7 @@ body{
     margin: 0 4%;
 }
   
-.About-nav-items ul {
+.Evolution-nav-items ul {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -39,7 +39,7 @@ body{
     text-decoration: none;
 }
   
-.About-nav-items li {
+.Evolution-nav-items li {
     display: flex;
     justify-content: space-around;
     margin: 2%;
@@ -47,7 +47,7 @@ body{
     padding: 15px;
 }
   
-.About-nav-items a {
+.Evolution-nav-items a {
     border: 1px solid white;
     background-color: white;
     border-radius: 50px;
@@ -62,7 +62,7 @@ body{
 
 /* Parallax effect */
 
-.Parallax-wrapper{
+.Evolution-Parallax-wrapper{
     /* background-color: black; */
     height: 100vh;
     perspective: 300px;
@@ -70,7 +70,7 @@ body{
     overflow-y: auto;
 }
 
-.Parallax-content-container{
+.Evolution-Parallax-content-container{
     position: relative;
     transform-style: preserve-3d;
     display: flex;
@@ -80,7 +80,7 @@ body{
     z-index: -1;
 }
 
-.Parallax-group{
+.Evolution-Parallax-group{
     position: relative;
     display: flex;
     justify-content: center;
@@ -91,17 +91,17 @@ body{
     margin-top: -100vh;
 }
 
-.Parallax-layer{
+.Evolution-Parallax-layer{
     position: absolute;
     object-fit: cover;
 }
 
-.Left-filler{
+.Evolution-Left-filler{
     /* background-color: rgb(193, 170, 231); */
     width: 45%;
 }
 
-.Content{
+.Evolution-Content{
     /* background-color: rgb(153, 177, 199); */
     width: 45%;
     display: flex;
@@ -111,113 +111,113 @@ body{
     padding-right: 20px;
 }
 
-.Content-text{
+.Evolution-Content-text{
     font-size: 22;
     color: white;
 }
 
-.Title{
+.Evolution-Title{
     font-size: 40;
     font-weight: bolder;
 }
 
-.White-space{
+.Evolution-White-space{
     margin-bottom: 100vh;
 }
 
 /* First block */
 
-.Pigeon{
+.Evolution-Pigeon{
     width: 15%;
     transform: translate3d(-9vw,-8vh,230px) scale(0.15);
 }
 
-.Campfire{
+.Evolution-Campfire{
     width: 10%;
     transform: translate3d(-13vw,6vh,175px) scale(0.30);
 }
 
-.Caveman{
+.Evolution-Caveman{
     width: 30%;
     transform: translate3d(-8vw,3vh,174px) scale(0.30);
 }
 
 /* Second block */
 
-.Guyondesk{
+.Evolution-Guyondesk{
     width: 30%;
     transform: translate3d(-12vw,0vh,160px) scale(0.8);
 }
 
-.Letter1{
+.Evolution-Letter1{
     width: 15%;
     transform: translate3d(-1.6vw,3vh,250px) scale(0.08);
 }
 
-.Letter2{
+.Evolution-Letter2{
     width: 15%;
     transform: translate3d(-4vw,-8vh,230px) scale(0.15);
 }
 
-.Letter3{
+.Evolution-Letter3{
     width: 15%;
     transform: translate3d(-10vw,5vh,210px) scale(0.18);
 }
 
-.Letter4{
+.Evolution-Letter4{
     width: 15%;
     transform: translate3d(-20vw,-3vh,140px) scale(0.35);
 }
 
 /* Third block */
 
-.Graph-pic{
+.Evolution-Graph-pic{
     width: 15%;
     transform: translate3d(-4vw,0vh,200px) scale(0.3);
 }
 
-.Ads{
+.Evolution-Ads{
     width: 37%;
     transform: translate3d(-14vw,-6vh,120px) scale(0.9);
 }
 
-.STONKS{
+.Evolution-STONKS{
     width: 15%;
     transform: translate3d(-10vw,0vh,200px) scale(0.35);
 }
 
 /* Fourth block */
 
-.Brush{
+.Evolution-Brush{
     width: 24%;
     transform: translate3d(-9vw,-4vh,220px) scale(0.2);
 }
 
-.Ai-art{
+.Evolution-Ai-art{
     width: 32%;
     transform: translate3d(-13vw,0vh,120px) scale(0.9);
 }
 
 /* Fifth block */
 
-.Brain-connections{
+.Evolution-Brain-connections{
     width: 37%;
     transform: translate3d(-12vw,-5vh,180px) scale(0.4);
 }
 
-.Brainchip{
+.Evolution-Brainchip{
     width: 37%;
     transform: translate3d(-5vw,5vh,210px) scale(0.2);
 }
 
 /* REDACTED */
 
-.Access-denied{
+.Evolution-Access-denied{
     width: 37%;
     transform: translate3d(-8.8vw,-4vh,180px) scale(0.5);
 }
 
-.ERROR{
+.Evolution-ERROR{
     width: 37%;
     transform: translate3d(-4.2vw,-4.8vh,240px) scale(0.19);
 }
