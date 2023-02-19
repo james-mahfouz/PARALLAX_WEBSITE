@@ -111,7 +111,183 @@ body {
     right: 12%;
     font-weight: 900;
     font-style: inherit;
+    text-shadow: 2px 2px 0 #000;
 }
+
+
+.Examples-gpt-container {
+    background-image: url('Images/chatgpt-background.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(120, 118, 118);
+    background-blend-mode: multiply;
+}
+
+.Examples-gpt-text .Examples-h1 {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 7em;
+    font-weight: 900;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 5px 2px rgb(159, 149, 51);
+    word-spacing: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Examples-gpt-text .Examples-p1 {
+    width: 60%;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+    color: white;
+    position: absolute;
+    align-items: center;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 3px 3px rgb(136, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .Examples-chat-gtp-logo {
+    position: absolute;
+    bottom: -70px;
+    height: 150px;
+    width: 150px;
+    right: 1%;
+    transform: translateX(-50%);
+    transition: transform 0.2s;
+}
+
+.Examples-chat-gtp-logo>img {
+    /* object-fit: cover; */
+/* height: 100%;
+width: 100%;
+
+}
+
+.Examples-gpt-container .Examples-chat-gtp-logo {
+    transform: translateX(-50%) translateY(-20px);
+} */
+
+
+/* Dalle-e page */
+
+.Examples-para {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+
+}
+
+.Examples-layer {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Examples-dalle-container {
+    background-image: url('Images/Page1-Static-Pics/Static4.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(120, 118, 118);
+    background-blend-mode: multiply;
+}
+
+.Examples-h2 {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 7em;
+    font-weight: 900;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 5px 2px rgb(159, 149, 51);
+    word-spacing: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Examples-p2 {
+    width: 60%;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+    color: white;
+    position: absolute;
+    align-items: center;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 3px 3px rgb(136, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.Examples-mid-layer {}
+
+.Examples-top-layer {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 6% 3%;
+}
+
+.Examples-dalle-image>img {
+    width: 8rem;
+    height: 8rem;
+
+}
+
+/* outro page */
+.Examples-gif {
+    background-image: url('Images/gif.gif');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
 
 @media (max-width:700px) {
     .Examples-nav-items ul {
@@ -158,72 +334,18 @@ body {
 
     .Examples-layers-text {
         color: rgb(244, 233, 233);
-        transform: translateZ(-0.5px) scale(1.5);
+        transform: translateZ(-1px) scale(1.5);
         position: relative;
         top: 3%;
         right: 29%;
 
     }
-}
 
+    .Examples-gpt-text .Examples-h1 {
+        font-size: 3em;
+    }
 
-
-.Examples-gpt-container {
-    background-image: url('Images/chatgpt-background.jpg');
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgb(120, 118, 118);
-    background-blend-mode: multiply;
-}
-
-.Examples-gpt-text .Examples-h1 {
-    margin: 0 auto;
-    width: 80%;
-    font-size: 8em;
-    font-weight: 900;
-    line-height: 1.3;
-    letter-spacing: 1px;
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-shadow: 5px 2px rgb(159, 149, 51);
-    word-spacing: 10vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Examples-gpt-text .Examples-p1 {
-    width: 60%;
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 1.3;
-    color: white;
-    position: absolute;
-    align-items: center;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-shadow: 3px 3px rgb(136, 45, 45);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.Examples-chat-gtp-logo {
-    position: relative;
-    margin: 0 auto;
-    width: 10%;
-    top: 10%;
-    left: 30%;
-    transform: scale(0.1);
+    .Examples-gpt-text .Examples-p1 {
+        font-size: 1.5em;
+    }
 }
