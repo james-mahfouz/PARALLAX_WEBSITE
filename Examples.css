@@ -49,12 +49,6 @@ body {
     font-size: 25px;
 }
 
-/* @media (max-width:700px) {
-
-} */
-
-/* Examples*/
-
 .Examples-parallax-wrapper {
     height: 100vh;
     overflow-x: hidden;
@@ -168,30 +162,6 @@ body {
     text-align: center;
 }
 
-/* .Examples-chat-gtp-logo {
-    position: absolute;
-    bottom: -70px;
-    height: 150px;
-    width: 150px;
-    right: 1%;
-    transform: translateX(-50%);
-    transition: transform 0.2s;
-}
-
-.Examples-chat-gtp-logo>img {
-    /* object-fit: cover; */
-/* height: 100%;
-width: 100%;
-
-}
-
-.Examples-gpt-container .Examples-chat-gtp-logo {
-    transform: translateX(-50%) translateY(-20px);
-} */
-
-
-/* Dalle-e page */
-
 .Examples-dalle-container {
     height: 100vh;
     width: 100vw;
@@ -234,14 +204,12 @@ width: 100%;
 
 .Examples-dunk,
 .Examples-robo {
-    /* transform: translateZ(-1px) scale(1); */
     transform: translateZ(-0px) scale(1)
 }
 
 .Examples-dalle-text {
     transform: translateZ(0.5px) scale(0.5)
 }
-
 
 .Examples-p2 {
     width: 50%;
@@ -282,51 +250,6 @@ width: 100%;
     justify-content: center;
 }
 
-/* 
-.Examples-para {
-    position: relative;
-    height: 100vh;
-    transform-style: preserve-3d;
-
-}
-
-.Examples-layer-2 {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-.Examples-dalle-background {
-    background-image: url('Images/Page1-Static-Pics/Static4.jpg');
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgb(120, 118, 118);
-    background-blend-mode: multiply;
-    transform: translateZ(-1px) scale(1.4);
-    z-index: 1;
-
-}
-
-.Examples-dalle-images {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transform: translateZ(-1.5px) scale(.5);
-} */
-
 /* outro page */
 .Examples-gif {
     background-image: url('Images/gif.gif');
@@ -337,8 +260,6 @@ width: 100%;
     background-attachment: fixed;
     background-position: center;
 }
-
-
 
 @media (max-width:700px) {
     .Examples-nav-items ul {
