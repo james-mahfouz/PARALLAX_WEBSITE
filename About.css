@@ -12,13 +12,13 @@ body {
   justify-content: space-between;
   align-items: center;
   justify-items: center;
-  margin: 0%;
+    margin: 0%;
 }
 
 .About-nav-logo img {
   width: 30%;
   height: auto;
-  margin: 0 0 auto 0; 
+  margin: 0 4%;
   filter: invert(100%);
 }
 
@@ -27,6 +27,7 @@ body {
   justify-content: space-between;
   justify-items: center;
   padding: 0;
+  margin: 0 4%;
 }
 
 .About-nav-items ul {
@@ -39,17 +40,17 @@ body {
 }
 
 .About-nav-items li {
-  border: 1px solid white;
-  background-color: white;
-  border-radius: 50px;
   display: flex;
   justify-content: space-around;
-  margin: 0;
+  margin: 2%;
   width: max-content;
   padding: 15px;
 }
 
 .About-nav-items a {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50px;
   text-align: center;
   width: 100%;
   padding: 4% 15%;
