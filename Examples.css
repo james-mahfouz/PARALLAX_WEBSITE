@@ -49,24 +49,9 @@ body {
     font-size: 25px;
 }
 
-@media (max-width:700px) {
-    .Examples-nav-items ul {
-        flex-direction: column;
-        align-items: center;
-    }
+/* @media (max-width:700px) {
 
-    .Examples-nav-logo img {
-        width: 50%;
-    }
-
-    .Examples-nav-items li {
-        margin: 10px 0;
-        font-size: small;
-        padding: 0px;
-        margin: 1px;
-    }
-
-}
+} */
 
 /* Examples*/
 
@@ -103,33 +88,6 @@ body {
     transform: translateZ(-1.5px) scale(2.5);
 }
 
-@media (max-width:700px) {
-    .Examples-arms {
-        transform: translateZ(-1.5px) scale(1);
-
-    }
-
-    .Examples-layers {
-        position: absolute;
-        height: 100%;
-        width: 250%;
-        object-fit: cover;
-    }
-
-    .Examples-littleman {
-        transform: translateZ(-1px) scale(0.2);
-        position: relative;
-        right: 35%;
-
-
-    }
-
-    .Examples-littlewoman {
-        transform: translateZ(1px) scale(0.2);
-        position: relative;
-        left: 35%;
-    }
-}
 
 .Examples-littleman {
     transform: translateZ(-1px) scale(2);
@@ -145,6 +103,68 @@ body {
     left: 35%;
 }
 
+.Examples-layers-text {
+    color: rgb(244, 233, 233);
+    transform: translateZ(-0.5px) scale(4);
+    position: relative;
+    top: 28%;
+    right: 12%;
+
+}
+
+@media (max-width:700px) {
+    .Examples-nav-items ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Examples-nav-logo img {
+        width: 50%;
+    }
+
+    .Examples-nav-items li {
+        margin: 10px 0;
+        font-size: small;
+        padding: 0px;
+        margin: 1px;
+    }
+
+    .Examples-arms {
+        transform: translateZ(-1.5px) scale(1);
+
+    }
+
+    .Examples-layers {
+        position: absolute;
+        height: 100%;
+        width: 250%;
+        object-fit: cover;
+    }
+
+    .Examples-littleman {
+        transform: translateZ(-1px) scale(0.7);
+        position: relative;
+        right: 20%;
+
+
+    }
+
+    .Examples-littlewoman {
+        transform: translateZ(-1px) scale(1);
+        position: relative;
+        left: 35%;
+    }
+
+    .Examples-layers-text {
+        color: rgb(244, 233, 233);
+        transform: translateZ(-0.5px) scale(1.5);
+        position: relative;
+        top: 3%;
+        right: 29%;
+
+    }
+}
+
 
 .Examples--container {
     position: absolute;
@@ -153,11 +173,7 @@ body {
 
 }
 
-.Examples-layers-text {
-    color: rgb(160, 42, 42);
-    transform: translateZ(1.5px) scale(2);
 
-}
 
 .Examples-backgraound-GPT {
     background-image: url('Images/chatgpt-background.jpg');
