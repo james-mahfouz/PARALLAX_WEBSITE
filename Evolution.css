@@ -914,3 +914,12 @@ img{
 .walking .background-artwork{
     background-image:url(https://matterday.netlify.com/images/topography.svg),repeating-linear-gradient(to right,hsla(0,0%,100%,.06),hsla(0,0%,100%,.06) 2px,transparent 2px,transparent 70px),repeating-linear-gradient(to bottom,hsla(0,0%,100%,.06),hsla(0,0%,100%,.06) 2px,transparent 2px,transparent 70px),linear-gradient(to bottom,var(--teal-medium),var(--purple-dark));background-size:100% auto;
 }
+
+.walking-pieces .route{
+    width:var(--overlay-w);
+    margin-left:-16vw;
+}
+
+.get-more-rest .background-artwork{
+    background-image:url(https://matterday.netlify.com/images/grid-dot.svg),var(--gradient-blue);background-position:50% 50%,0 0;
+}
