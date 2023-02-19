@@ -287,4 +287,42 @@ img{
     margin:15vw 0 10vw;
 }
 
+.background{
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.background-container{
+    height:var(--artwork-h);
+    border-radius:.6em;
+    overflow:hidden;
+}
+
+.background-artwork{
+    height:100%;
+}
+
+.foreground{
+    width:calc(100% - var(--body-padding) * 2);
+    height:100%;position:absolute;
+}
+
+.foreground img{
+    position:absolute;
+    left:50%;
+}
+
+
+.intro{
+    order:-3;
+}
+
+.underlay{
+    order:-2;
+}
+
+.overlay{
+    order:-1;
+}
+
 
