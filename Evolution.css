@@ -325,4 +325,42 @@ img{
     order:-1;
 }
 
+.parallax-group.pieces{
+    height:var(--artwork-h);
+    margin-top:calc(var(--artwork-h) * -1 - 1em);
+}
 
+.parallax{
+    perspective:300px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    z-index:1;
+}
+.parallax,.parallax-group{
+    height:100vh;
+    position:relative;
+}
+
+.parallax-group{
+    transform-style:preserve-3d;
+}
+
+.parallax-layer{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.background{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:3vw;
+}
+
+.content{
+    place-self:center;
+    padding-right:6vw;
+    grid-column:2;
+}
