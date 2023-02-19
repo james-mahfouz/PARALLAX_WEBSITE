@@ -96,24 +96,53 @@ body {
 }
 
 .Examples-background-1 {
-    transform: translateZ(-2.5px) scale(4);
-}
-
-.Examples-background-2 {
-    transform: translateZ(-2px) scale(2.5);
+    transform: translateZ(-2px) scale(3.5);
 }
 
 .Examples-arms {
     transform: translateZ(-1.5px) scale(2.5);
 }
 
+@media (max-width:700px) {
+    .Examples-arms {
+        transform: translateZ(-1.5px) scale(1);
+
+    }
+
+    .Examples-layers {
+        position: absolute;
+        height: 100%;
+        width: 250%;
+        object-fit: cover;
+    }
+
+    .Examples-littleman {
+        transform: translateZ(-1px) scale(0.2);
+        position: relative;
+        right: 35%;
+
+
+    }
+
+    .Examples-littlewoman {
+        transform: translateZ(1px) scale(0.2);
+        position: relative;
+        left: 35%;
+    }
+}
+
 .Examples-littleman {
-    transform: translateZ(-1px) scale(1);
+    transform: translateZ(-1px) scale(2);
+    position: relative;
+    right: 35%;
+
 
 }
 
 .Examples-littlewoman {
-    transform: translateZ(-1px) scale(1);
+    transform: translateZ(-1px) scale(2.5);
+    position: relative;
+    left: 35%;
 }
 
 
@@ -124,8 +153,9 @@ body {
 
 }
 
-.Examples-tex {
-    color: aliceblue;
+.Examples-layers-text {
+    color: rgb(160, 42, 42);
+    transform: translateZ(1.5px) scale(2);
 
 }
 
