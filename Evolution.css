@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-image: url(Images/Static-pics/Background/Bg.jpg);
     background-repeat: repeat-y;
-    font-family: arial;
+    /* font-family: arial; */
 }
 
 .About-navbar {
@@ -13,43 +13,44 @@ body{
     align-items: center;
     justify-items: center;
     margin: 0%;
-  }
+}
   
-  .About-nav-logo img {
+.About-nav-logo img {
     width: 30%;
     height: auto;
-    margin: 0 0 auto 0; 
+    margin: 0 4%; 
     filter: invert(100%);
-  }
+}
   
-  .About-nav-items {
+.About-nav-items {
     display: flex;
     justify-content: space-between;
     justify-items: center;
     padding: 0;
-  }
+    margin: 0 4%;
+}
   
-  .About-nav-items ul {
+.About-nav-items ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
     justify-items: center;
     text-decoration: none;
-  }
+}
   
-  .About-nav-items li {
+.About-nav-items li {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    width: max-content;
+    padding: 15px;
+}
+  
+.About-nav-items a {
     border: 1px solid white;
     background-color: white;
     border-radius: 50px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    width: max-content;
-    padding: 15px;
-  }
-  
-  .About-nav-items a {
     text-align: center;
     width: 100%;
     padding: 4% 15%;
@@ -57,7 +58,7 @@ body{
     font-weight: bold;
     color: rgb(28, 75, 47);
     font-size: 25px;
-  }
+}
 
 /* Parallax effect */
 
