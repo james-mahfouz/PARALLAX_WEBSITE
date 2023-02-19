@@ -80,6 +80,7 @@ body {
     object-fit: cover;
 }
 
+
 .Examples-background-1 {
     transform: translateZ(-2px) scale(3.5);
 }
@@ -125,6 +126,7 @@ body {
     background-position: center;
     background-color: rgb(120, 118, 118);
     background-blend-mode: multiply;
+
 }
 
 .Examples-gpt-text .Examples-h1 {
@@ -190,33 +192,67 @@ width: 100%;
 
 /* Dalle-e page */
 
-.Examples-para {
-    position: relative;
+.Examples-dalle-container {
     height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transform-style: preserve-3d;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.Examples-layers {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.Examples-background-2 {
+    transform: translateZ(-1px) scale(2);
+}
+
+.Examples-arms {
+    transform: translateZ(-1.5px) scale(2.5);
+}
+
+
+.Examples-littleman {
+    transform: translateZ(-1px) scale(2);
+    position: relative;
+    right: 35%;
+
 
 }
 
-.Examples-layer {
+.Examples-littlewoman {
+    transform: translateZ(-1px) scale(2.5);
+    position: relative;
+    left: 35%;
+}
+
+
+.Examples-p2 {
+    width: 60%;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.3;
+    color: white;
     position: absolute;
-    inset: 0;
+    align-items: center;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 3px 3px rgb(136, 45, 45);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-
-.Examples-dalle-container {
-    background-image: url('Images/Page1-Static-Pics/Static4.jpg');
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: rgb(120, 118, 118);
-    background-blend-mode: multiply;
+    text-align: center;
 }
 
 .Examples-h2 {
@@ -239,42 +275,50 @@ width: 100%;
     justify-content: center;
 }
 
-.Examples-p2 {
-    width: 60%;
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 1.3;
-    color: white;
+/* 
+.Examples-para {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+
+}
+
+.Examples-layer-2 {
     position: absolute;
-    align-items: center;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-shadow: 3px 3px rgb(136, 45, 45);
+    inset: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 
 
 
-.Examples-mid-layer {}
 
-.Examples-top-layer {
+.Examples-dalle-background {
+    background-image: url('Images/Page1-Static-Pics/Static4.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(120, 118, 118);
+    background-blend-mode: multiply;
+    transform: translateZ(-1px) scale(1.4);
+    z-index: 1;
+
+}
+
+.Examples-dalle-images {
+    width: 100%;
+    height: 50%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    margin: 6% 3%;
-}
-
-.Examples-dalle-image>img {
-    width: 8rem;
-    height: 8rem;
-
-}
+    align-items: center;
+    transform: translateZ(-1.5px) scale(.5);
+} */
 
 /* outro page */
 .Examples-gif {
@@ -307,7 +351,7 @@ width: 100%;
     }
 
     .Examples-arms {
-        transform: translateZ(-1.5px) scale(1);
+        transform: translateZ(-1px) scale(2);
 
     }
 
