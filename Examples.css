@@ -16,6 +16,7 @@ body {
 .Examples-nav-logo img {
     width: 30%;
     height: auto;
+    filter: invert(1);
 }
 
 .Examples-nav-items ul {
@@ -30,7 +31,7 @@ body {
 .Examples-nav-items li {
     display: flex;
     justify-content: space-around;
-    margin: 0;
+    margin: 2%;
     width: max-content;
     padding: 15px;
 }
@@ -46,6 +47,25 @@ body {
     font-weight: bold;
     color: rgb(28, 75, 47);
     font-size: 25px;
+}
+
+@media (max-width:700px) {
+    .Examples-nav-items ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Examples-nav-logo img {
+        width: 50%;
+    }
+
+    .Examples-nav-items li {
+        margin: 10px 0;
+        font-size: small;
+        padding: 0px;
+        margin: 1px;
+    }
+
 }
 
 /* Examples*/
@@ -76,24 +96,53 @@ body {
 }
 
 .Examples-background-1 {
-    transform: translateZ(-2.5px) scale(4);
-}
-
-.Examples-background-2 {
-    transform: translateZ(-2px) scale(2.5);
+    transform: translateZ(-2px) scale(3.5);
 }
 
 .Examples-arms {
     transform: translateZ(-1.5px) scale(2.5);
 }
 
+@media (max-width:700px) {
+    .Examples-arms {
+        transform: translateZ(-1.5px) scale(1);
+
+    }
+
+    .Examples-layers {
+        position: absolute;
+        height: 100%;
+        width: 250%;
+        object-fit: cover;
+    }
+
+    .Examples-littleman {
+        transform: translateZ(-1px) scale(0.2);
+        position: relative;
+        right: 35%;
+
+
+    }
+
+    .Examples-littlewoman {
+        transform: translateZ(1px) scale(0.2);
+        position: relative;
+        left: 35%;
+    }
+}
+
 .Examples-littleman {
-    transform: translateZ(-1px) scale(1);
+    transform: translateZ(-1px) scale(2);
+    position: relative;
+    right: 35%;
+
 
 }
 
 .Examples-littlewoman {
-    transform: translateZ(-1px) scale(1);
+    transform: translateZ(-1px) scale(2.5);
+    position: relative;
+    left: 35%;
 }
 
 
@@ -104,8 +153,9 @@ body {
 
 }
 
-.Examples-tex {
-    color: aliceblue;
+.Examples-layers-text {
+    color: rgb(160, 42, 42);
+    transform: translateZ(1.5px) scale(2);
 
 }
 
