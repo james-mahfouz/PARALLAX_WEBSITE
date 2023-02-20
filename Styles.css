@@ -1,3 +1,4 @@
+/*about page styling*/
 .About-body {
     margin: 0;
     height:100%;
@@ -271,7 +272,9 @@
     }
   }
 
-  .Evolution-body {
+
+  /*Evolution styling*/
+.Evolution-body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -369,12 +372,10 @@
 }
 
 .Evolution-Left-filler {
-    /* background-color: rgb(193, 170, 231); */
     width: 45%;
 }
 
 .Evolution-Content {
-    /* background-color: rgb(153, 177, 199); */
     width: 45%;
     display: flex;
     justify-content: center;
@@ -398,7 +399,7 @@
     margin-bottom: 100vh;
 }
 
-/* First block */
+/* Sponge Bob block */
 .Evolution-Pigeon {
     width: 15%;
     transform: translate3d(-9vw, -8vh, 230px) scale(0.15);
@@ -414,7 +415,7 @@
     transform: translate3d(-8vw, 3vh, 174px) scale(0.30);
 }
 
-/* Second block */
+/* Office block */
 .Evolution-Guyondesk {
     width: 30%;
     transform: translate3d(-12vw, 0vh, 160px) scale(0.8);
@@ -440,7 +441,7 @@
     transform: translate3d(-20vw, -3vh, 140px) scale(0.35);
 }
 
-/* Third block */
+/* Marketing block */
 .Evolution-Graph-pic {
     width: 15%;
     transform: translate3d(-4vw, 0vh, 200px) scale(0.3);
@@ -456,7 +457,7 @@
     transform: translate3d(-10vw, 0vh, 200px) scale(0.35);
 }
 
-/* Fourth block */
+/* Artistic block block */
 .Evolution-Brush {
     width: 24%;
     transform: translate3d(-9vw, -4vh, 220px) scale(0.2);
@@ -467,7 +468,7 @@
     transform: translate3d(-13vw, 0vh, 120px) scale(0.9);
 }
 
-/* Fifth block */
+/* Omniscient AI block */
 .Evolution-Brain-connections {
     width: 37%;
     transform: translate3d(-12vw, -5vh, 180px) scale(0.4);
@@ -592,6 +593,7 @@
     }
 }
 
+/*Examples styling*/
 .Examples-body {
     margin: 0;
     padding: 0;
