@@ -490,14 +490,19 @@ h3 {
     transform: translate3d(-4.2vw, -6vh, 240px) scale(0.19);
 }
 
- 
+/* Examples Page */
+
+.Evolution-nav-items li {
+    font-size: 30;
+    padding: 8px;
+}
+
+.Evolution-nav-items a {
+    font-size: 20px;
+}
 
 .Evolution-Title {
     font-size: 32;
-}
-
-.Evolution-Content-text {
-    font-size: 18;
 }
 
 .Evolution-Content-text {
