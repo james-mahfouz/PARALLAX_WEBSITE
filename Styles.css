@@ -500,6 +500,10 @@ h3 {
     font-size: 18;
 }
 
+.Evolution-Content-text {
+    font-size: 18;
+}
+
 
 @media (max-width:700px) {
     .Evolution-nav-logo img {
