@@ -487,28 +487,19 @@ h3 {
 
 .Evolution-ERROR {
     width: 37%;
-    transform: translate3d(-4.2vw, -4vh, 240px) scale(0.19);
+    transform: translate3d(-4.2vw, -6vh, 240px) scale(0.19);
 }
 
-/* Examples Page */
+ 
 
-    .Evolution-nav-items li {
-        font-size: 30;
-        padding: 8px;
-    }
-
-    .Evolution-nav-items a {
-        font-size: 20px;
-    }
-
-    .Evolution-Title {
-        font-size: 32;
-    }
-
-    .Evolution-Content-text {
-        font-size: 18;
-    }
+.Evolution-Title {
+    font-size: 32;
 }
+
+.Evolution-Content-text {
+    font-size: 18;
+}
+
 
 @media (max-width:700px) {
     .Evolution-nav-logo img {
@@ -587,6 +578,9 @@ h3 {
         margin: 3%;
     }
 }
+
+
+/* Examples Page */
 
 .Examples-body {
     margin: 0;
