@@ -1,4 +1,4 @@
-body {
+.Examples-body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,13 +10,22 @@ body {
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    margin: 0 4%;
+    margin:0%;
 }
 
 .Examples-nav-logo img {
     width: 30%;
     height: auto;
+    margin: 0% 4%;
     filter: invert(1);
+}
+
+.Examples-nav-items {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 0;
+    margin: 0 4%;
 }
 
 .Examples-nav-items ul {
@@ -102,6 +111,7 @@ body {
     color: rgb(131, 190, 217);
     transform: translateZ(-0.5px) scale(4);
     position: relative;
+    text-align: center;
     top: 28%;
     right: 12%;
     font-weight: 900;
@@ -111,7 +121,8 @@ body {
 
 
 .Examples-gpt-container {
-    background-image: url('Images/chatgpt-background.jpg');
+    /* background-image: url('Images/chatgpt-background.jpg');*/
+    background-image: url('Images/TestImage3.png');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,57 +272,48 @@ body {
     background-position: center;
 }
 
-@media (max-width:700px) {
-    .Examples-nav-items ul {
-        flex-direction: column;
-        align-items: center;
+@media (max-width:1050px){
+    .Examples-gpt-text .Examples-h1 {
+        font-size: 5em;
     }
 
-    .Examples-nav-logo img {
-        width: 50%;
+    .Examples-gpt-text .Examples-p1 {
+        font-size: 1.5em;
     }
 
+    .Examples-h2 {
+        font-size: 5em;
+    }
+
+    .Examples-p2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:850px) {
     .Examples-nav-items li {
-        margin: 10px 0;
-        font-size: small;
-        padding: 0px;
-        margin: 1px;
+        font-size: 30;
+        padding: 8px;
     }
 
-    .Examples-arms {
-        transform: translateZ(-1px) scale(2);
-
+    .Examples-nav-items a {
+        font-size: 20px;
     }
+}
 
-    .Examples-layers {
-        position: absolute;
-        height: 100%;
-        width: 250%;
-        object-fit: cover;
-    }
-
-    .Examples-littleman {
-        transform: translateZ(-1px) scale(0.7);
-        position: relative;
-        right: 20%;
-
-
-    }
-
-    .Examples-littlewoman {
-        transform: translateZ(-1px) scale(1);
-        position: relative;
-        left: 35%;
+@media (max-width:700px) {
+    .Examples-nav-logo img {
+        width: 60%;
     }
 
     .Examples-layers-text {
+        font-size: 70px;
         color: rgb(244, 233, 233);
         transform: translateZ(-1px) scale(1.5);
         position: relative;
         top: 3%;
         right: 29%;
-
-    }
+    } 
 
     .Examples-gpt-text .Examples-h1 {
         font-size: 3em;
@@ -319,5 +321,63 @@ body {
 
     .Examples-gpt-text .Examples-p1 {
         font-size: 1.5em;
+    }
+}
+
+@media (max-width:600px){
+    .Examples-layers-text{
+        font-size: 55px;
+    }
+
+    
+    .Examples-gpt-text .Examples-h1 {
+        font-size: 3em;
+    }
+
+    .Examples-gpt-text .Examples-p1 {
+        font-size: 1.5em;
+    }
+
+    .Examples-h2 {
+        font-size: 3em;
+    }
+
+    .Examples-p2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:500px) {
+    .Examples-nav-logo img {
+        width: 80%;
+    }
+
+    .Examples-nav-items a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:400px) {
+    .Examples-nav-logo img {
+        width: 60%;
+    }
+
+    .Examples-nav-items a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:300px){
+    .Examples-nav-logo img {
+        width: 80%;
+    }
+  
+    .Examples-nav-items li {
+        font-size: smaller;
+        padding: 4px;
+    }
+    
+    .Examples-nav-items a {
+        font-size: 8px;
     }
 }
